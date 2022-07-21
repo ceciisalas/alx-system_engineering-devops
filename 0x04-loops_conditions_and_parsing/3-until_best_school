@@ -5,6 +5,6 @@ bs=0
 
 until [ $bs -gt 10 ]
 do
-echo Bs: $bs
+echo "Best School"
 ((bs++))
 done
