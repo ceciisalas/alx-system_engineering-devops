@@ -3,8 +3,8 @@
 
 bs=0
 
-until [ $bs -gt 10 ]
+until [ $bs -eq 10 ]
 do
 echo "Best School"
-((bs++))
+(( bs++ ))
 done
