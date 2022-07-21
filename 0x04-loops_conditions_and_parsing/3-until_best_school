@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Output: Best School 10 times with an until loop
+
+bs=0
+
+until [ $bs -gt 10 ]
+do
+echo Bs: $bs
+((bs++))
+done
