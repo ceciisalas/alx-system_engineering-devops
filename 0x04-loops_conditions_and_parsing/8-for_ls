@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Displays the content of the current directory in list format
+
+list=$(ls)
+for a in $list; do
+echo "$a" | cut -d '-' -f2
+done 
